@@ -1,6 +1,6 @@
 const imgCont = document.getElementsByClassName('gallery-show');
 //var folder = "tree/main/img/asociadas";
-var folder = "./img/asociadas";
+var folder = "https://username.github.io/web/img/asociadas";
 //var folder = "img/asociadas";
 var images = [];
 var n = 0;
