@@ -1,5 +1,5 @@
 const imgCont = document.getElementsByClassName('gallery-show');
-var folder = "img/asociadas";
+var folder = "tree/main/img/asociadas";
 var images = [];
 var n = 0;
 var i = 0;
