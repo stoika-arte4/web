@@ -1,0 +1,9 @@
+.navbar-light {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0,0,0,.7);
+}
+
+.navbar-light .container a, .navbar-light .container .collapse .navbar-nav .nav-item .nav-link{
+    color: var(--primary-font-color1);
+}

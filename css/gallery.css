@@ -1,0 +1,41 @@
+.gallery-class{
+    background-color: black;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    color:var(--primary-font-color1);
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+}
+
+.services-class{
+    max-width: 100%;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    color:var(--primary-font-color1);
+}
+
+.gallery-class .sub-container{
+    height: 70vh;
+    padding-bottom: 0;
+
+    
+    vertical-align: middle;
+}
+
+.gallery-show{
+    width: 75%;
+    max-width: 50vh;
+    aspect-ratio: 1/1;
+
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.gallery-show-container{
+    padding: 0 !important;
+    text-align: center;
+   }

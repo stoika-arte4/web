@@ -1,0 +1,37 @@
+
+.down-arrow-container {
+
+    -webkit-font-smoothing: antialiased;
+
+    position: absolute;
+    bottom: 0vh;
+    left: 50%;
+    margin-left: -25px;
+    margin-bottom: 30px;
+
+    width: 50px;
+    height: 25px;
+
+    scale: 1;
+
+    fill: none;
+    stroke: white;
+    stroke-width: 1px;
+
+    transition: 0.3s;
+}
+
+.down-arrow-container:hover {
+
+    transform: translateY(7px);
+
+    transition: 0.2s;
+}
+
+.not-top{
+
+    transform: translateY(20px);
+    stroke: rgba(255, 255, 255, 0);
+
+    transition: 0.1s;
+}
