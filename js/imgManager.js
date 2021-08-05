@@ -17,6 +17,7 @@ $.ajax({
         i = Math.floor(Math.random() * n);
         $(".gallery-show").attr("src",images[i]);
         Tick();
+        console.debug(images[0]);
     }
 });
 
